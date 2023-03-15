@@ -1,24 +1,24 @@
 const { interfaces } = require("mocha");
 
-function add(a,b){
-return a+b;
+function add(b,c){
+return b+c;
 }
-function subtract(a,b){
-    return a-b;
+function subtract(d,a){
+    return d-a;
 }
-function multiply(a,b){
-    return a*b;
+function multiply(y,x){
+    return y*x;
 }
-function divide(a,b){
-    return a/b;
+function divide(c,j){
+    return c/j;
 }
-function increment(n){
-    n++;
-   return n++;
+function increment(b){
+    b++;
+   return b++;
 }
-function decrement(n){
-    n--;
-   return n--;
+function decrement(v){
+    v--;
+   return v--;
 }
 function makeInt(n){
     parseInt(n, 10);
